@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div {
+    position: relative;
+  animation-name: khoji;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.div_card {
+
+  width: 200px;
+  height: 200px;
+ 
+}
+@keyframes khoji {
+  0% {clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+
+    top: 0px;
+    left: 600px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 234, 1);
+  }
+  12.5% {
+    clip-path: polygon(40% 0%, 76% 0, 77% 57%, 100% 58%, 62% 100%, 18% 59%, 41% 59%);
+    top: 00px;
+    left: 900px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 28, 1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  25% {
+clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+
+    top: 400px;
+    left: 900px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(215, 234, 1);
+  }
+  37.5% {
+    clip-path: polygon(40% 0%, 76% 0, 77% 57%, 100% 58%, 62% 100%, 18% 59%, 41% 59%);
+
+    top: 400px;
+    left: 1800px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(20, 1, 234);
+  }
+  50% {
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+
+    top: 1200px;
+    left: 1800px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 1, 226);
+  }
+  62.5% {
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+
+    top: 1200px;
+    left: 900px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 1, 114);
+  }
+  75% {
+    clip-path: polygon(54% 0, 95% 43%, 69% 42%, 69% 100%, 36% 100%, 37% 41%, 12% 41%);
+
+    top: 1200px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 234, 211);
+  }
+  87.5% {
+    clip-path: polygon(54% 0, 95% 43%, 69% 42%, 69% 100%, 36% 100%, 37% 41%, 12% 41%);
+
+
+    top: 400px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(194, 48, 106);
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(1, 234, 20, 0.61);
+  }
+}
